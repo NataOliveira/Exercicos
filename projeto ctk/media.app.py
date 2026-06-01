@@ -6,6 +6,7 @@ ctk.set_default_color_theme("dark-blue")
 
 # Janela do App
 app = ctk.CTk()
+app.iconbitmap(r"C:\Users\natan\OneDrive\Documentos\GitHub\Exercicios\projeto ctk\logo.ico")
 app.geometry("400x300")
 app.title("Calcular Média")
 
